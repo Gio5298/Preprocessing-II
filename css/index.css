@@ -168,6 +168,25 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+  border-bottom: 1px dashed lightgray;
+}
+.navBar h1 {
+  width: 60%;
+}
+.navBar .navDes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+.navBar .navDes a {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
