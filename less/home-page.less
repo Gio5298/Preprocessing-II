@@ -68,6 +68,9 @@
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    @media @mobile{
+      .mobile-margin();
+    }
 
     img {
       border-radius: 10px;
@@ -80,16 +83,20 @@
     display: flex;
     justify-content: space-between;
     @media @mobile{
-      .mobile-margin();
-      
+      .mobile-flex();
     }
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      @media @mobile{
+        .mobile-margin;
+      }
     }
     .btn{
       .custom-btn();
+      margin-bottom: 10px;
+      align-items: center;
     }
   }
 }// home
